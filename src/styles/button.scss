@@ -10,17 +10,66 @@ button{
     padding: 14px 32px;
     color: #0000ff;    
     text-transform: uppercase;
+    font-size: 18px;
 }
 
-.button-nav-spotify{
+
+
+.premium , .suporte , .baixar, .inscrever , .entrar{
+    font: bold 15px "Roboto";
     background-color: transparent;
-    width: 150px;
+    color: #fff;
+    padding: 0px 20px;
+
+    &:hover{
+        color: #21e065;
+    }
+    
+}
+
+.button-footer-spotify, .button-nav-spotify{
+    background-color: transparent;
+    width: 130px;
+    margin-top: -10px;
     font: bold 16px "Roboto";
 }
 
-.premium , .suporte , .baixar, .inscrever , .entrar{
-    font: bold 21px "Roboto";
+.footer-sobre, 
+.footer-empregos, 
+.footer-record, 
+.footer-artista, 
+.footer-desenvolvedor, 
+.footer-publicidade, 
+.footer-investidor, 
+.footer-fornecedor,
+.footer-suporte,
+.footer-player,
+.footer-app-movel
+{
     background-color: transparent;
+    font: 400 15px "Roboto";
     color: #fff;
-    padding: 0px 30px;
+    display: block;
+    padding: 10px 0px;
+
+    &:hover{
+        color: #21e065;
+    }
+}
+
+.footer-icon-insta, .footer-icon-twitter, .footer-icon-face{
+    
+}
+
+.footer-icon-insta, .footer-icon-twitter, .footer-icon-face{
+    background-color: #222326;
+    padding: 6px 8px 4px 8px;
+    border-radius: 35px;
+    margin:0px 10px;
+    fill: #fff;
+
+    &:hover{
+        fill: #21e065;
+    }
+
 }
