@@ -1,0 +1,26 @@
+button{
+    cursor: pointer;
+    border: none;
+}
+
+
+.button-principal{
+    background-color: #21e065;
+    border-radius: 35px;
+    padding: 14px 32px;
+    color: #0000ff;    
+    text-transform: uppercase;
+}
+
+.button-nav-spotify{
+    background-color: transparent;
+    width: 150px;
+    font: bold 16px "Roboto";
+}
+
+.premium , .suporte , .baixar, .inscrever , .entrar{
+    font: bold 21px "Roboto";
+    background-color: transparent;
+    color: #fff;
+    padding: 0px 30px;
+}

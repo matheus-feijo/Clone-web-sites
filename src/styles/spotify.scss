@@ -1,0 +1,68 @@
+header{
+    background-color: #000;
+    width: 100%;
+    height: 10vh;
+    padding: 0px 100px;
+    display: flex;
+    padding-top: 30px;
+}
+.container-header{   
+    width: 40%;
+}
+
+.container-buttons-extras{
+    width: 40%;
+}
+
+.container-buttons-cadastro{
+    width: 25%;
+}
+
+
+
+
+
+p{
+    color: #21e065;
+}
+
+.title{
+    font:bold 150px "Roboto";
+}
+
+.subtitle{
+    font-size: 22px;
+}   
+
+.plano-fundo{
+    height: 100vh;
+    background-color: blue;
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-size: 175%;
+    background-position: 46% 4%;
+}
+
+
+.container-body{
+    display: flex;
+    justify-content: center;
+    padding-top: 27vh;
+    
+}
+
+.container-conteudo{
+    text-align: center;
+    width: 100vh;
+}
+
+.container-button-principal{
+    padding-top: 60px;
+}
+
+
+
+.separator{
+    background-color: #fff;
+    width: 10px;
+    height: 8vh;
+}
